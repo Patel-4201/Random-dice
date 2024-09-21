@@ -14,7 +14,7 @@ function getrandomUrl() {
   const url = `assets/images/dice-${numWords[rn]}.png`;
   return url;
 }
-// ele.src = getrandomUrl();
+ele.src = getrandomUrl();
 
 bot.addEventListener("click", function () {
   ele.src = getrandomUrl();
