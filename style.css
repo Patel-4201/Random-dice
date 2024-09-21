@@ -1,10 +1,74 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Playwrite DE Grund";
+  background: linear-gradient(to top, #0ba360 0%, #3cba92 100%) no-repeat;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(
+        109.6deg,
+        rgb(36, 45, 57) 11.2%,
+        rgb(16, 37, 60) 51.2%,
+        rgb(0, 0, 0) 98.6%
+      )
+      50%,
+    no-repeat;
+  background-size: 60% 50%;
+}
+h1 {
+  font-size: 36px;
+  margin: 0 10px;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0 40px;
+  background: linear-gradient(
+    98.3deg,
+    rgb(235, 171, 93) 10.6%,
+    rgb(255, 0, 0) 97.7%
+  );
 }
 
+.container {
+  width: 402px;
+  height: 548px;
+  padding: 50px;
+  border: 3px solid black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  margin-top: -100px;
+  background-color: blue;
+  box-shadow: 0 15px black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  height: 249px;
+  width: 251px;
+  border-radius: 10px;
+  border: #00ff91 2px solid;
+  margin-top: 10px;
+}
+.btn {
+  outline: none;
+  color: darkgreen;
+  padding: 5px 0;
+  width: 150px;
+  letter-spacing: 3px;
+  border-radius: 18px;
+  cursor: pointer;
+  border: 2px solid black;
+  background: linear-gradient(109.6deg, rgb(255, 230, 109) 11.2%, rgb(87, 232, 107) 100.2%);
+  font-size: 100%;
+  font-size: bold;
+  margin-top: 30px;
+}
