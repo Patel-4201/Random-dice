@@ -13,11 +13,23 @@
   </head>
   <body>
     <div class="container">
-      <h1>Roll a Die</h1>
+      <!-- heading css -->
+      <h1 data-text="Roll a Die!">Roll a Die!</h1>
       <div>
         <img src="assets/images/dice-one.png" alt="" />
       </div>
-      <button class="btn">Your Luck</button>
+      <!-- button css -->
+      <button class="btn" type="button">
+        <strong>Your Luck</strong>
+        <div id="container-stars">
+          <div id="stars"></div>
+        </div>
+
+        <div id="glow">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </button>
     </div>
     <script src="script.js"></script>
   </body>
