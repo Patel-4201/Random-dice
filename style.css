@@ -86,9 +86,7 @@ h1:hover::after {
 img {
   height: 249px;
   width: 251px;
-  border-radius: 10px;
-  /* border: #00ff91 2px solid; */
-  margin-top: 10px;
+  padding: 30px;
 }
 
 /* button css */
